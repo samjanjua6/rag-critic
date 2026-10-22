@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-critic"
+version = "0.1.0"
+description = "Lightweight adversarial hallucination auditor and citation grounding engine for LangGraph and production RAG pipelines."
+readme = "README.md"
+authors = [
+    { name = "Shaheer Ul Hassan", email = "contact@shaheerulhassan.com" }
+]
+license = "MIT"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+keywords = [
+    "rag",
+    "langgraph",
+    "hallucination-detection",
+    "evals",
+    "fact-checking",
+    "llm",
+    "langchain",
+    "citation-grounding"
+]
+dependencies = [
+    "pydantic>=2.0.0"
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "build",
+    "twine"
+]
+
+[project.scripts]
+rag-critic = "rag_critic.cli:main"
+
+[project.urls]
+"Homepage" = "https://shaheerulhassan.com/"
+"Documentation" = "https://shaheerulhassan.com/#projects"
+"Source" = "https://github.com/samjanjua6/rag-critic"
+"Bug Tracker" = "https://github.com/samjanjua6/rag-critic/issues"
+"Author Portfolio" = "https://shaheerulhassan.com/"
