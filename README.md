@@ -2,10 +2,15 @@
 
 [![PyPI version](https://img.shields.io/pypi/v/rag-critic.svg?color=blue)](https://pypi.org/project/rag-critic/)
 [![Python versions](https://img.shields.io/pypi/pyversions/rag-critic.svg)](https://pypi.org/project/rag-critic/)
+[![Downloads](https://img.shields.io/pypi/dm/rag-critic.svg?color=emerald)](https://pypistats.org/packages/rag-critic)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://img.shields.io/pypi/dm/rag-critic.svg)](https://pypistats.org/packages/rag-critic)
+[![Author](https://img.shields.io/badge/Author-Shaheer%20Ul%20Hassan-8F63DD)](https://shaheerulhassan.com/)
+[![GitHub stars](https://img.shields.io/github/stars/samjanjua6/rag-critic?style=social)](https://github.com/samjanjua6/rag-critic)
 
 > **Lightweight adversarial hallucination auditor and citation grounding engine for LangGraph and production RAG pipelines.**
+
+> [!TIP]
+> **Support Open-Source**: If you find `rag-critic` useful in your RAG pipelines or LangGraph evaluation loops, please consider giving it a ⭐ on GitHub — it helps other engineers discover it!
 
 Stop deploying unchecked RAG applications. `rag-critic` provides an adversarial verification loop that decomposes LLM draft answers into atomic factual claims, checks them against retrieved source passages, computes continuous grounding scores, and outputs actionable revision instructions for re-writer agents.
 
