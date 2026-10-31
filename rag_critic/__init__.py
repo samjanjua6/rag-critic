@@ -8,7 +8,7 @@ Author: Shaheer Ul Hassan (https://shaheerulhassan.com/)
 License: MIT
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "Shaheer Ul Hassan"
 
 from .core import RAGCritic

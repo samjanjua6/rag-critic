@@ -6,6 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 [![Author](https://img.shields.io/badge/Author-Shaheer%20Ul%20Hassan-8F63DD)](https://shaheerulhassan.com/)
 [![GitHub stars](https://img.shields.io/github/stars/samjanjua6/rag-critic?style=social)](https://github.com/samjanjua6/rag-critic)
+[![Architecture Deep-Dive](https://img.shields.io/badge/Architecture-Deep--Dive-8F63DD)](https://shaheerulhassan.com/blog/beyond-naive-rag-adversarial-fact-auditing-langgraph)
 
 > **Lightweight adversarial hallucination auditor and citation grounding engine for LangGraph and production RAG pipelines.**
 

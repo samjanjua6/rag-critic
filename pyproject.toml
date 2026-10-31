@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rag-critic"
-version = "0.1.0"
+version = "0.1.1"
 description = "Lightweight adversarial hallucination auditor and citation grounding engine for LangGraph and production RAG pipelines."
 readme = "README.md"
 authors = [
@@ -51,7 +51,7 @@ rag-critic = "rag_critic.cli:main"
 
 [project.urls]
 "Homepage" = "https://shaheerulhassan.com/"
-"Documentation" = "https://shaheerulhassan.com/#projects"
+"Documentation" = "https://shaheerulhassan.com/blog/beyond-naive-rag-adversarial-fact-auditing-langgraph"
 "Source" = "https://github.com/samjanjua6/rag-critic"
 "Bug Tracker" = "https://github.com/samjanjua6/rag-critic/issues"
 "Author Portfolio" = "https://shaheerulhassan.com/"
