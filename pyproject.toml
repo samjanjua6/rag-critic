@@ -49,6 +49,11 @@ dev = [
 [project.scripts]
 rag-critic = "rag_critic.cli:main"
 
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["rag_critic*"]
+exclude = ["tests*", "assets*"]
+
 [project.urls]
 "Homepage" = "https://shaheerulhassan.com/"
 "Documentation" = "https://shaheerulhassan.com/blog/beyond-naive-rag-adversarial-fact-auditing-langgraph"
