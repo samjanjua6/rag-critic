@@ -1,8 +1,9 @@
 # rag-critic
 
-[![PyPI version](https://img.shields.io/pypi/v/rag-critic.svg?color=blue)](https://pypi.org/project/rag-critic/)
-[![Python versions](https://img.shields.io/pypi/pyversions/rag-critic.svg)](https://pypi.org/project/rag-critic/)
-[![Downloads](https://img.shields.io/pypi/dm/rag-critic.svg?color=emerald)](https://pypistats.org/packages/rag-critic)
+[![PyPI version](https://img.shields.io/pypi/v/rag-critic.svg?color=blue&logo=pypi&logoColor=white)](https://pypi.org/project/rag-critic/)
+[![Python versions](https://img.shields.io/pypi/pyversions/rag-critic.svg?logo=python&logoColor=white)](https://pypi.org/project/rag-critic/)
+[![Downloads](https://img.shields.io/pypi/dm/rag-critic.svg?color=2ea44f&logo=pypi&logoColor=white)](https://pypistats.org/packages/rag-critic)
+[![Total Downloads](https://static.pepy.tech/badge/rag-critic)](https://pepy.tech/project/rag-critic)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 [![Author](https://img.shields.io/badge/Author-Shaheer%20Ul%20Hassan-8F63DD)](https://shaheerulhassan.com/)
 [![GitHub stars](https://img.shields.io/github/stars/samjanjua6/rag-critic?style=social)](https://github.com/samjanjua6/rag-critic)
